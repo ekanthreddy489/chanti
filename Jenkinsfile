@@ -1,5 +1,10 @@
 node { 
-    echo 'Hello World' 
+   echo 'Hello World' 
+   stage 'Checkout'
+   // Get some code from repository
+
+   stage 'Build'
+   // Run the build
 }
 stage('Dev') {
     echo 'This is a Development environment'
