@@ -2,14 +2,14 @@ node {
     echo 'Hello World' 
 }
 stage('Dev') {
-    // some block
+    echo 'This is a Development environment'
 }
 stage('QA') {
-    // some block
+    echo 'This is a QA environment'
 }
 stage('Pre-Prod') {
-    // some block
+    echo 'This is a Pre-Prod environment'
 }
 stage('Prod') {
-    // some block
+    echo 'This is a Production environment'
 }
